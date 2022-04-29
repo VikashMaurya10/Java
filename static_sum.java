@@ -10,7 +10,7 @@ class sum{
 class static_sum{
     public static void main(String args[]){
        sum p= new sum();
-       p.display(); // By wusing object.
+       p.display(); // By using object.
        sum.display(); //by using static keyword.
     }
 }
