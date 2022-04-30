@@ -4,9 +4,9 @@ class fact{
     void display(){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter input: ");
-       int n = scan.nextInt();
+        int n = scan.nextInt();
         System.out.println("input: "+n);
-       while(i<=n){
+        while(i<=n){
             fact = i*fact;
             i++;
         }
