@@ -4,7 +4,7 @@ class Conversion{
         int i = 257;
         double d = 323.142;
         System.out.println("\nConversion of int to byte." );
-        b = (byte) i;
+        b = (byte) i; // Here find (257 % 256) is the right answer.
         System.out.println("i and b " + i + " " + b);
         System.out.println("\nConversion of double to int." );
         i = (int) d;
