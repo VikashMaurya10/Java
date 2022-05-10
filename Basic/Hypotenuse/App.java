@@ -13,5 +13,6 @@ public class App {
     y = scan.nextDouble();
     z = Math.sqrt(x * x + y * y);
     System.out.println("The Hypotenuse is: " + z);
+    scan.close();
   }
 }

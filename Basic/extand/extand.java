@@ -26,11 +26,12 @@ class B extends A{
 }
 class extand {
     public static void main(String args[]){
-        A a = new A();
-        a.display();
+        // A a = new A();
+        // a.display();
 
         B b = new B();
         System.out.println(b.dis());
+        b.display();
         
     }
 }
