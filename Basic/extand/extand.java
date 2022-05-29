@@ -1,3 +1,5 @@
+package Basic.extand;
+
 import java.util.Scanner;
 class Input{
     int input(){

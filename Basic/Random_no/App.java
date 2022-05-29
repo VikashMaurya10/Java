@@ -1,3 +1,5 @@
+package Basic.Random_no;
+
 import java.util.Random;
 
 public class App {

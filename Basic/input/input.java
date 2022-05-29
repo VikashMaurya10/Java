@@ -1,3 +1,5 @@
+package Basic.input;
+
 import java.util.Scanner;
 class fact{
     int i = 1, fact=1;

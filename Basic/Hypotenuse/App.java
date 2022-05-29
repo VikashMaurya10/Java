@@ -1,3 +1,5 @@
+package Basic.Hypotenuse;
+
 import java.util.Scanner;
 
 public class App {

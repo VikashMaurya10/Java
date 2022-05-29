@@ -1,3 +1,5 @@
+package Basic.factorial;
+
 class fact{
     int i = 1, fact=1, count=0;
     void display(){

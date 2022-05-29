@@ -1,3 +1,5 @@
+package Basic.static_sum;
+
 class sum{
     static int a,b,c;
     static void display(){
