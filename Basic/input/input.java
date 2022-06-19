@@ -13,6 +13,7 @@ class fact{
             i++;
         }
         System.out.println("factorial is: "+fact);
+        scan.close();
     }
 }
 class input{

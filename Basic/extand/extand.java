@@ -1,15 +1,18 @@
 package Basic.extand;
 
 import java.util.Scanner;
-class Input{
-    int input(){
+
+class Input {
+    int input() {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
+        scan.close();
         return n;
     }
 }
-class A{
-    void display(){
+
+class A {
+    void display() {
         System.out.println("Vikash");
         Input in = new Input();
 
@@ -21,19 +24,21 @@ class A{
 
     }
 }
-class B extends A{
-    String dis(){
+
+class B extends A {
+    String dis() {
         return ("Maurya");
     }
 }
+
 class extand {
-    public static void main(String args[]){
+    public static void main(String args[]) {
         // A a = new A();
         // a.display();
 
         B b = new B();
         System.out.println(b.dis());
         b.display();
-        
+
     }
 }
